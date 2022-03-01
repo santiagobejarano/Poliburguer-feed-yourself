@@ -45,6 +45,27 @@ namespace Poliburguer_feed_yourself
     }
     public partial class Form1 : Form
     {
+        private static readonly int p = 100;
+
+        int contadorHamgurguesa = 0;
+        int contadorPapa = 0;
+        int contadorHotDog = 0;
+        int contadorCola = 0;
+        int contadorAgua = 0;
+        int contadorTe = 0;
+        int contadorChocolate = 0;
+        int contadorHelado = 0;
+
+        double subtotal;
+        double total = 0;
+        int stockHamburguesa = 70;
+        int stockPapa = 40;
+        int stockHotDog = 40;
+        int stockCola = 100;
+        int stockAgua = 80;
+        int stockTe = 80;
+        int stockChocolate = 50;
+        int stockHelado = 50;
 
         public Form1()
         {
@@ -116,7 +137,7 @@ namespace Poliburguer_feed_yourself
 
 
 
-                if (string.IsNullOrEmpty(txtNombre.Text) || string.IsNullOrEmpty(txtCi.Text))
+                if (string.IsNullOrEmpty(txtNombre.Text) || string.IsNullOrEmpty(txtApellido.Text) || string.IsNullOrEmpty(txtCi.Text))
                 {
                     MessageBox.Show("Algunos parametros en blanco");
                 }
@@ -130,7 +151,19 @@ namespace Poliburguer_feed_yourself
                     stockHamburguesa -= contadorHamgurguesa;
                     subtotal += contadorPapa * productos[1].precio;
                     stockPapa -= contadorPapa;
-             
+                    subtotal += contadorHotDog * productos[2].precio;
+                    stockHotDog -= contadorHotDog;
+                    subtotal += contadorCola * productos[3].precio;
+                    stockCola -= contadorCola;
+                    subtotal += contadorAgua * productos[4].precio;
+                    stockAgua -= contadorAgua;
+                    subtotal += contadorTe * productos[5].precio;
+                    stockTe -= contadorTe;
+                    subtotal += contadorChocolate * productos[6].precio;
+                    stockChocolate -= contadorChocolate;
+                    subtotal += contadorHelado * productos[7].precio;
+                    stockHelado -= contadorHelado;
+
 
                     total = subtotal + subtotal * 0.12;
                     DateTime now = DateTime.UtcNow.Date;
@@ -139,12 +172,59 @@ namespace Poliburguer_feed_yourself
                     fechaActual.mes = now.ToString("MM");
                     fechaActual.anio = now.ToString("yyyy");
 
+                    Factura factura;
+                    factura.nombre = persona.Nombre + " " + persona.Apellido;
+                    factura.CI = persona.CI;
+                    factura.fecha = fechaActual.dia + " / " + fechaActual.mes + " / " + fechaActual.anio;
+                    factura.subtotal = subtotal;
+                    factura.total = total;
+                    factura.pedidos = "Productos comprados: \n";
+
                     listBox1.Items.Add(factura.nombre);
                     listBox1.Items.Add(factura.CI);
                     listBox1.Items.Add(factura.fecha);
 
+                    if (contadorHamgurguesa > 0)
+                    {
+                        factura.pedidos += "Hamburguesas: " + contadorHamgurguesa.ToString() + "\n";
+                    }
+                    if (contadorPapa > 0)
+                    {
+                        factura.pedidos += "Salchipapas: " + contadorPapa.ToString() + "\n";
+                    }
+                    if (contadorHotDog > 0)
+                    {
+                        factura.pedidos += "Hot Dogs: " + contadorHotDog.ToString() + "\n";
+                    }
+                    if (contadorCola > 0)
+                    {
+                        factura.pedidos += "Colas: " + contadorCola.ToString() + "\n";
+                    }
+                    if (contadorAgua > 0)
+                    {
+                        factura.pedidos += "Aguas: " + contadorAgua.ToString() + "\n";
+                    }
+                    if (contadorTe > 0)
+                    {
+                        factura.pedidos += "Tés: " + contadorTe.ToString() + "\n";
+                    }
+                    if (contadorChocolate > 0)
+                    {
+                        factura.pedidos += "Chocolates: " + contadorChocolate.ToString() + "\n";
+                    }
+                    if (contadorHelado > 0)
+                    {
+                        factura.pedidos += "Helados: " + contadorHelado.ToString() + "\n";
+                    }
 
-                    
+                    string[] values = factura.pedidos.Split('\n');
+
+                    foreach (string value in values)
+                    {
+                        if (value.Trim() == "")
+                            continue;
+                        listBox1.Items.Add(value.Trim());
+                    }
 
                     listBox1.Items.Add("Subtotal: " + factura.subtotal);
                     listBox1.Items.Add("Total: " + factura.total);
@@ -155,12 +235,169 @@ namespace Poliburguer_feed_yourself
                 txtCi.Text = "";
                 lblContador1.Text = "0";
                 lblContador2.Text = "0";
-                
+                lblContador3.Text = "0";
+                lblContador4.Text = "0";
+                lblContador5.Text = "0";
+                lblContador6.Text = "0";
+                lblContador7.Text = "0";
+                lblContador8.Text = "0";
+
             }
             catch (Exception)
             {
                 MessageBox.Show("Ocurrio algun error");
                 throw;
+            }
+        }
+
+        private void HoraFecha_Tick(object sender, EventArgs e)
+        {
+            lblHora.Text = DateTime.Now.ToString("h:mm:ss");
+            lblFecha.Text = DateTime.Now.ToString("dd/MM/yyy");
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            if (contadorHamgurguesa>=0 && contadorHamgurguesa<stockHamburguesa)
+            {
+                contadorHamgurguesa++;
+                lblContador1.Text=contadorHamgurguesa.ToString();
+
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (contadorHamgurguesa > 0)
+            {
+                contadorHamgurguesa--;
+                lblContador1.Text = contadorHamgurguesa.ToString();
+            }
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            if (contadorPapa >= 0 && contadorPapa<stockPapa)
+            {
+                contadorPapa++;
+                lblContador2.Text = contadorPapa.ToString();
+            }
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            if (contadorPapa > 0)
+            {
+                contadorPapa--;
+                lblContador2.Text = contadorPapa.ToString();
+            }
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            if (contadorHotDog >= 0 && contadorHotDog<stockHotDog)
+            {
+                contadorHotDog++;
+                lblContador3.Text = contadorHotDog.ToString();
+            }
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            if (contadorHotDog > 0)
+            {
+                contadorHotDog--;
+                lblContador3.Text = contadorHotDog.ToString();
+            }
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            if (contadorCola >= 0 && contadorCola<stockCola)
+            {
+                contadorCola++;
+                lblContador4.Text = contadorCola.ToString();
+            }
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            if (contadorCola > 0)
+            {
+                contadorCola--;
+                lblContador4.Text = contadorCola.ToString();
+            }
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            if (contadorAgua >= 0 && contadorAgua<stockAgua)
+            {
+                contadorAgua++;
+                lblContador5.Text = contadorAgua.ToString();
+            }
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            if (contadorAgua > 0)
+            {
+                contadorAgua--;
+                lblContador5.Text = contadorAgua.ToString();
+            }
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            if (contadorTe >= 0 && contadorTe<stockTe)
+            {
+                contadorTe++;
+                lblContador6.Text = contadorTe.ToString();
+            }
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            if (contadorTe > 0)
+            {
+                contadorTe--;
+                lblContador6.Text = contadorTe.ToString();
+            }
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            if (contadorChocolate >= 0 && contadorChocolate<stockChocolate)
+            {
+                contadorChocolate++;
+                lblContador7.Text = contadorChocolate.ToString();
+            }
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            if (contadorChocolate > 0)
+            {
+                contadorChocolate--;
+                lblContador7.Text = contadorChocolate.ToString();
+            }
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+            if (contadorHelado >= 0 && contadorHelado<stockHelado)
+            {
+                contadorHelado++;
+                lblContador8.Text = contadorHelado.ToString();
+            }
+        }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            if (contadorHelado > 0)
+            {
+                contadorHelado--;
+                lblContador8.Text = contadorHelado.ToString();
             }
         }
     }
