@@ -1,22 +1,55 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Forms;
 
-namespace Poliburguer_feed_yourself
+namespace structs
 {
-    internal static class Program
+    internal class Program
     {
-        /// <summary>
-        /// The main entry point for the application.
-        /// </summary>
-        [STAThread]
-        static void Main()
+        struct Fecha
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            int dia;
+            int mes;
+            int anio;
+        }
+        struct Categoria
+        {
+            string nombre;
+        }
+        struct Cliente
+        {
+            string nombres;
+            string apellidos;
+            int ID;
+        }
+        struct Producto
+        {
+            string nombre;
+            int stock;
+            float precio;
+            Categoria categoria;
+            int ID;
+        }
+        static void Main(string[] args)
+        {
+        }
+		public struct Facruta
+		{
+			string nombre;
+			string fecha;
+			double total;
+			string pedidos
+		}
+		public struct Factura
+		{
+        public string nombre;
+        public string CI;
+        public string fecha;
+        public double subtotal;
+        public double total;
+        public string pedidos;
         }
     }
 }
