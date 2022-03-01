@@ -250,12 +250,6 @@ namespace Poliburguer_feed_yourself
             }
         }
 
-        private void HoraFecha_Tick(object sender, EventArgs e)
-        {
-            lblHora.Text = DateTime.Now.ToString("h:mm:ss");
-            lblFecha.Text = DateTime.Now.ToString("dd/MM/yyy");
-        }
-
         private void button4_Click(object sender, EventArgs e)
         {
             if (contadorHamgurguesa>=0 && contadorHamgurguesa<stockHamburguesa)
@@ -399,6 +393,12 @@ namespace Poliburguer_feed_yourself
                 contadorHelado--;
                 lblContador8.Text = contadorHelado.ToString();
             }
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            lblHora.Text = DateTime.Now.ToString("h:mm:ss");
+            lblFecha.Text = DateTime.Now.ToString("dd/MM/yyy");
         }
     }
 }
