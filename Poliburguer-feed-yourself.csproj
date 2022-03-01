@@ -92,5 +92,47 @@
   <ItemGroup>
     <None Include="Resources\maximizar2Thin.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Burger-Free-Download-PNG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\contador.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360_F_334810395_5SMnFZD3CLXKXAyJw96wKvA2LkyKIreD.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-hot-dog-hamburger-bratwurst-french-fries-mustard-hot-dog-food-recipe-ketchup-removebg-preview %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cola.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\water_bottle_PNG98953.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\te.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sweet-Chocolate-Candy-Bar-PNG-Clipart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ieves-paletas-png-renders-chocolate-ice-cream-11563229896nvwv2jlv37.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\te-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ieves-paletas-png-renders-chocolate-ice-cream-11563229896nvwv2jlv37-removebg-preview.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

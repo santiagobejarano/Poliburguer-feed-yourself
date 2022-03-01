@@ -118,16 +118,58 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="closeThin" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\closeThin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="water_bottle_PNG98953" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\water_bottle_PNG98953.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="minimizarThin" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\minimizarThin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Burger-Free-Download-PNG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Burger-Free-Download-PNG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="te" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\te.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="maximizar2Thin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\maximizar2Thin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sweet-Chocolate-Candy-Bar-PNG-Clipart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sweet-Chocolate-Candy-Bar-PNG-Clipart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cola" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cola.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="360_F_334810395_5SMnFZD3CLXKXAyJw96wKvA2LkyKIreD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\360_F_334810395_5SMnFZD3CLXKXAyJw96wKvA2LkyKIreD.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="te-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\te-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="maximizarThin" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\maximizarThin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="maximizar2Thin" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\maximizar2Thin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="closeThin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\closeThin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ieves-paletas-png-renders-chocolate-ice-cream-11563229896nvwv2jlv37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ieves-paletas-png-renders-chocolate-ice-cream-11563229896nvwv2jlv37.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="minimizarThin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\minimizarThin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="png-transparent-hot-dog-hamburger-bratwurst-french-fries-mustard-hot-dog-food-recipe-ketchup-removebg-preview (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\png-transparent-hot-dog-hamburger-bratwurst-french-fries-mustard-hot-dog-food-recipe-ketchup-removebg-preview (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="contador" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\contador.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ieves-paletas-png-renders-chocolate-ice-cream-11563229896nvwv2jlv37-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ieves-paletas-png-renders-chocolate-ice-cream-11563229896nvwv2jlv37-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

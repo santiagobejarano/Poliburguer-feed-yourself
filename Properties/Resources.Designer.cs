@@ -63,9 +63,90 @@ namespace Poliburguer_feed_yourself.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _360_F_334810395_5SMnFZD3CLXKXAyJw96wKvA2LkyKIreD {
+            get {
+                object obj = ResourceManager.GetObject("360_F_334810395_5SMnFZD3CLXKXAyJw96wKvA2LkyKIreD", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Burger_Free_Download_PNG {
+            get {
+                object obj = ResourceManager.GetObject("Burger-Free-Download-PNG", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap closeThin {
             get {
                 object obj = ResourceManager.GetObject("closeThin", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cola {
+            get {
+                object obj = ResourceManager.GetObject("cola", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap contador {
+            get {
+                object obj = ResourceManager.GetObject("contador", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ieves_paletas_png_renders_chocolate_ice_cream_11563229896nvwv2jlv37 {
+            get {
+                object obj = ResourceManager.GetObject("ieves-paletas-png-renders-chocolate-ice-cream-11563229896nvwv2jlv37", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ieves_paletas_png_renders_chocolate_ice_cream_11563229896nvwv2jlv37_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("ieves-paletas-png-renders-chocolate-ice-cream-11563229896nvwv2jlv37-removebg-prev" +
+                        "iew", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap logo {
+            get {
+                object obj = ResourceManager.GetObject("logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mas {
+            get {
+                object obj = ResourceManager.GetObject("mas", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +174,70 @@ namespace Poliburguer_feed_yourself.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap menos {
+            get {
+                object obj = ResourceManager.GetObject("menos", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap minimizarThin {
             get {
                 object obj = ResourceManager.GetObject("minimizarThin", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap png_transparent_hot_dog_hamburger_bratwurst_french_fries_mustard_hot_dog_food_recipe_ketchup_removebg_preview__1_ {
+            get {
+                object obj = ResourceManager.GetObject("png-transparent-hot-dog-hamburger-bratwurst-french-fries-mustard-hot-dog-food-rec" +
+                        "ipe-ketchup-removebg-preview (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Sweet_Chocolate_Candy_Bar_PNG_Clipart {
+            get {
+                object obj = ResourceManager.GetObject("Sweet-Chocolate-Candy-Bar-PNG-Clipart", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap te {
+            get {
+                object obj = ResourceManager.GetObject("te", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap te_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("te-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap water_bottle_PNG98953 {
+            get {
+                object obj = ResourceManager.GetObject("water_bottle_PNG98953", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
