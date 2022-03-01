@@ -182,6 +182,7 @@ namespace Poliburguer_feed_yourself
 
                     listBox1.Items.Add(factura.nombre);
                     listBox1.Items.Add(factura.CI);
+                    listBox1.Items.Add("Fecha: ");
                     listBox1.Items.Add(factura.fecha);
 
                     if (contadorHamgurguesa > 0)
