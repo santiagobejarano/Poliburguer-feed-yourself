@@ -1,101 +1,60 @@
 # Poliburguer Feed Yourself
 
-
-_Acá va un párrafo que describa lo que es el proyecto_
-
+Bienvenidos a todos, nuestro proyecto tiene la mision de satifacer la demanda de llevar el registro de las ventas en retaurantes o de cierto modo modificarse para se utilizado en algun otro negocio, la gestion de este proyecto se realizó exitosamente cumpliendo asi lo requerido.
+Nuestro proyecto cuenta con una interfas grafica muy amigable para el usuario que va a utulizarla siendo asi minimalista y directa para que el usuario que no tenga conocimientos de informatica o simplemete no conoce como funciona la aplicacion pueda utilizarla normalmente.
 ## Comenzando 🚀
-
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
-
-Mira **Deployment** para conocer como desplegar el proyecto.
-
-
+Programacion 1 - 2021 B
 ### Pre-requisitos 📋
 
-_Que cosas necesitas para instalar el software y como instalarlas_
+Requisitos de hardware:  
+*Procesador Core i3 o Core i5  
+*Memoria RAM de 4 GB a 8 GB  
+*Disco duro de 150GB o superior  
+*S.O windows 7 (o superior)
 
-```
-Da un ejemplo
-```
+
+![Image text](https://github.com/EddyFizzio/Poliburguer-feed-yourself/blob/master/img%20pc.jpg)
 
 ### Instalación 🔧
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
+_Ahora tenemos una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener acceso a nuestro programa_  
+Para la instalacion de nuestro programa procederemos a descargar el archivo .rar:  
+![Image text](https://github.com/EddyFizzio/Poliburguer-feed-yourself/blob/master/inst%201.jpg)
 
-_Dí cómo será ese paso_
+Luego de eso procederemos a extraer el archivo:  
+![Image text](https://github.com/EddyFizzio/Poliburguer-feed-yourself/blob/master/inst%202.jpg)  
+Luego de eso procederemos a ejecutar el archivo .exe y procederemos a usar el software:
+![Image text](https://github.com/EddyFizzio/Poliburguer-feed-yourself/blob/master/inst%203.jpg)  
 
-```
-Da un ejemplo
-```
-
-_Y repite_
-
-```
-hasta finalizar
-```
-
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
+Y listo, eso seria todo en cuanto a la instalacion. :D
 
 ## Ejecutando las pruebas ⚙️
 
-_Explica como ejecutar las pruebas automatizadas para este sistema_
+*Primero tenemos la excepciones en la cual si no llenamos los cuadros de textos se nos presentará un error.  
+![Image text](https://github.com/EddyFizzio/Poliburguer-feed-yourself/blob/master/img%20error.jpg)
+*Ahora tenemos los pasos correctos para el uso del programa.  
+1. Procederemos a llenar los cuadros de texto con los datos correspondientes y de manera correcta.  
 
-### Analice las pruebas end-to-end 🔩
+2. Luego procederemos a elegir la comida que queremos y que cantidad de esa comida desea adquirir.  
 
-_Explica que verifican estas pruebas y por qué_
+3. Y por ultimo damos al boton confirmar en el cual nos va a mostrar nuestra factura en la que nos indica que vamos a comprar y cuanto va a ser el total.  
+![Image text](https://github.com/EddyFizzio/Poliburguer-feed-yourself/blob/master/img%20correcto.jpg)
 
-```
-Da un ejemplo
-```
 
-### Y las pruebas de estilo de codificación ⌨️
-
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
-
-## Despliegue 📦
-
-_Agrega notas adicionales sobre como hacer deploy_
 
 ## Construido con 🛠️
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
-
-## Contribuyendo 🖇️
-
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
-
-## Wiki 📖
-
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
-
-## Versionado 📌
-
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
+* [Visual Studio](https://visualstudio.microsoft.com/es/) - La ID usada
 
 ## Autores ✒️
 
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
-
-* **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
-
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
-
-## Licencia 📄
-
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+* **Bejarano Santiago** - [EddyFizzio](https://github.com/EddyFizzio)
+* **Abdelfatah Tarek** - [1-Abdu](https://github.com/1-Abdu)
+* **Meza Jhon** - [JhonMeza7](https://github.com/JhonMeza7)
 
 ## Expresiones de Gratitud 🎁
 
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
-* Da las gracias públicamente 🤓.
+* Este proyecto fue un reto debido que tuvimos que investigar todo lo que teniamos que hacer 📢
+* Invito una cerveza 🍺 o un café ☕ si nos vemos en presenciales. 
+* Muchas gracias a todos por ver nuestro proyecto 🤓.
 * etc.
