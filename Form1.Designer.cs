@@ -1,4 +1,4 @@
-﻿namespace Poliburguer_feed_yourself
+namespace Poliburguer_feed_yourself
 {
     partial class Form1
     {
@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+
+
             this.header = new System.Windows.Forms.Panel();
             this.logo = new System.Windows.Forms.PictureBox();
             this.btnRestaurar = new System.Windows.Forms.PictureBox();
@@ -835,11 +837,13 @@
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(212, 329);
             this.listBox1.TabIndex = 20;
+
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1120, 560);
             this.Controls.Add(this.listBox1);
@@ -916,12 +920,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnDismeuirHotdog)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnAumentarHotdog)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).EndInit();
+
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
+
 
         private System.Windows.Forms.Panel header;
         private System.Windows.Forms.PictureBox btnMaximizar;
@@ -985,6 +991,7 @@
         private System.Windows.Forms.PictureBox pictureBox30;
         private System.Windows.Forms.Label lblFactura;
         private System.Windows.Forms.ListBox listBox1;
+
     }
 }
 
