@@ -18,12 +18,29 @@ Requisitos de hardware:
 ### Instalación 🔧
 
 _Ahora tenemos una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener acceso a nuestro programa_  
-Para la instalacion de nuestro programa procederemos a descargar el archivo .rar:  
-![Image text](https://github.com/EddyFizzio/Poliburguer-feed-yourself/blob/master/inst%201.jpg)
+Para la instalacion de nuestro programa procederemos a descargar el archivo POLIBURGUER FYS - JAS Development.rar:  
+![Image text](https://github.com/EddyFizzio/Poliburguer-feed-yourself/blob/master/Instalador%201.jpg)
 
-Luego de eso procederemos a extraer el archivo:  
-![Image text](https://github.com/EddyFizzio/Poliburguer-feed-yourself/blob/master/inst%202.jpg)  
-Luego de eso procederemos a ejecutar el archivo .exe y procederemos a usar el software:
+Luego de eso procederemos a extraer el archivo POLIBURGUER FYS - JAS Development:  
+![Image text](https://github.com/EddyFizzio/Poliburguer-feed-yourself/blob/master/Instalador%202.jpg)
+
+Procederemos a abrir la carpeta Poliburguer Feed Yourself - App:  
+![Image text](https://github.com/EddyFizzio/Poliburguer-feed-yourself/blob/master/Instalador%203.jpg)
+
+Ejecutamos el instalador Poliburguer Feed Yourself.exe:  
+![Image text](https://github.com/EddyFizzio/Poliburguer-feed-yourself/blob/master/Instalador%204.jpg)
+
+Seleccionamos la ruta donde se va a instalar la aplicación Poliburguer Feed Yourself:  
+Se la recomienda dejar en default.
+![Image text](https://github.com/EddyFizzio/Poliburguer-feed-yourself/blob/master/Instalador%205.jpg)
+
+Marcamos los términos y condiciones, se selecciona Instalar, y se porcede la instalación del programa:
+![Image text](https://github.com/EddyFizzio/Poliburguer-feed-yourself/blob/master/Instalador%206.jpg)
+
+Seleccionamos Iniciar: para usar la aplicación, o Finalizar: para acabar con la instalación:
+![Image text](https://github.com/EddyFizzio/Poliburguer-feed-yourself/blob/master/Instalador%207.jpg)
+
+Luego de eso procederemos a ejecutar el archivo Poliburguer Feed Yourself.exe y procederemos a usar el software:
 ![Image text](https://github.com/EddyFizzio/Poliburguer-feed-yourself/blob/master/inst%203.jpg)  
 
 Y listo, eso seria todo en cuanto a la instalacion. :D
