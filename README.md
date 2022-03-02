@@ -31,7 +31,7 @@ Ejecutamos el instalador Poliburguer Feed Yourself.exe:
 ![Image text](https://github.com/EddyFizzio/Poliburguer-feed-yourself/blob/master/Instalador%204.jpg)
 
 Seleccionamos la ruta donde se va a instalar la aplicación Poliburguer Feed Yourself:  
-Se la recomienda dejar en default.
+Se la recomienda dejar en default.  
 ![Image text](https://github.com/EddyFizzio/Poliburguer-feed-yourself/blob/master/Instalador%205.jpg)
 
 Marcamos los términos y condiciones, se selecciona Instalar, y se porcede la instalación del programa:
